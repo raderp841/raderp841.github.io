@@ -1,12 +1,11 @@
 
 
 body {
-  background-color: #f2f2f2;
+    background-color: #404242;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -143,6 +142,10 @@ a:after {
 
 #f img {
 	text-align: center;
+}
+
+hr {
+    background-color: #404242;
 }
 
 

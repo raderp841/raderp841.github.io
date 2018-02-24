@@ -378,16 +378,14 @@ hr {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgba(40,40,40,.5);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
@@ -406,7 +404,7 @@ hr {
         cursor: pointer;
     }
 
-.row {
+.modal-content .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -427,6 +425,10 @@ hr {
         height: 600px;
         width: 700px;
     }
-        
+    
+    .spaceCat{
+        height: 600px;
+        width: 900px;
+    }
         
         
